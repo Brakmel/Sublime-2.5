@@ -1,0 +1,235 @@
+body{
+    background-image: url(https://media.giphy.com/media/TRebCjNbc4dIA/giphy.gif);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0%;
+}
+::-webkit-scrollbar {display: none;}
+/*Esto es el rectangulo principal con botones(header)*/
+header{
+    width: 100%;
+    height: 160px;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.baul_header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.titulo{
+    background-color: #862323;
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+h1{
+    margin: 10px;
+    color: tomato;
+    font-size: 40px;    
+}
+.Titulo_principal{
+    color: aliceblue;
+}
+h2{
+    margin: 10px;
+    color: tomato;
+    font-size: 35pxs;
+}
+p{
+   color: tomato; 
+   font-size: 35px;
+   text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+input{
+    background-color: brown;
+    color: aliceblue;
+    border: none;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+input:hover{
+    background-color:tomato;
+    cursor: pointer;
+    transition: 1s;
+}
+.panel_button{
+    background-color: #862323;
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.sub_titulo{
+    background-color: #541b1b;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+a{
+    color: aliceblue;
+}
+
+/*Lista*/
+table{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+tbody{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+tr{
+    background-color: #541b1b;
+    width: 650px;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin: 10px;
+}
+tr:hover{
+    cursor: pointer;
+    background-color: brown;
+    transition: 1.5s;
+}
+th{
+    width: 650px;
+    height: 650px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+    color: aliceblue;
+}
+/*Con esto se edita el form para insertar productos*/
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+/*Footer, informacion de contacto*/
+footer{
+    background-color: rgb(45, 13, 13);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.baul_numero_contacto{
+    width: 33%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.baul_redes_sociales{
+    width: 33%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.baul_agradecimientos{
+    width: 33%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.despacho{
+    color: tomato;
+    font-size: 20px;
+}
+.agradecimientos{
+    color: aliceblue;
+    font-size: 20px;
+}
+a{
+    color: aliceblue;
+}
+.pildora_red{
+    width: 30%;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.wspp{
+    width: 30px;
+    border-radius: 30px;
+}
+.face{
+    width: 30px;
+    border-radius: 30px;
+}
+.ints{
+    width: 30px;
+    border-radius: 30px;
+}
+.wspp:hover{
+    -webkit-transform: rotate(360deg);
+    transition: 1s ease-in-out;
+}
+.face:hover{
+    -webkit-transform: rotateX(360deg);
+    transition: 1s ease-in-out;
+}
+.ints:hover{
+    -webkit-transform: rotateY(360deg);
+    transition: 1s ease-in-out;
+}
+.sushiimg{
+    width: 350px;
+    height: 180px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sushiimg:hover{
+  cursor: pointer;
+  transition: 4s;
+  transform: scale(1.6);
+}
